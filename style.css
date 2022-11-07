@@ -1,6 +1,16 @@
 @import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
 @import url(https://fonts.google.com/specimen/Lexend+Deca);
 
+@media only screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .component {
+    padding: 0;
+  }
+}
+
 *,
 ::before,
 ::after {
